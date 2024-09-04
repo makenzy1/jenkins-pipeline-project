@@ -37,7 +37,7 @@ jobs:
 
         steps:
         - name: Build Docker image
-          run: docker build -t dockerfile
+          run: docker build -t dockerfile .
 
         - name: Run Docker container
           run: docker run jenkins-pipeline-project
